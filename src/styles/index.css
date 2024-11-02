@@ -10,3 +10,61 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+#app{
+    background-color: rgb(182, 182, 182);
+    height: 100vh;
+   
+
+}
+
+ .container{
+    width: 900px;
+} 
+
+.sombra{
+    box-shadow: -2px 17px 5px 0px rgba(148,145,148,1);
+}
+
+
+.text{
+    font-size: 150px;
+    font-family: Alumni Sans Pinstripe, sans-serif;
+    font-style: normal;
+    color: rgb(184, 88, 88);
+}
+
+
+
+.tarea{
+    border: none;
+    padding: 10px
+}
+
+.tarea:focus {
+    outline: none;
+}
+
+.opcion-tarea{
+    position: relative;
+}
+
+.icono-x{
+    opacity: 0;
+    padding-right: 15px;
+    color: rgb(213, 10, 10);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position:absolute;
+    inset: 0;
+}
+
+.icono-x:hover{
+    opacity: 1;
+}
+
+
+
+
+
